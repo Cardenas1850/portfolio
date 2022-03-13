@@ -69,9 +69,36 @@ flex-wrap: wrap;
 /* footer style ends */
 
 /* article style begins */
-
+.main-content {
+    border-left: solid 3px black;
+}
 /* article style ends */
 
+/* about me style begins */
+.about {
+    padding: 0 125px 0 125px;
+}
+/* about me style ends */
 
+/* work style begins */
 
+.project-img {
+  max-height: 1000px;
+  max-width: 1000px;
+border: solid 3px rgb(181, 142, 218);
+    
+}
 
+.project-img-main {
+    max-height: 1080px;
+    max-width: 1920px;
+    border: solid 3px rgb(181, 142, 218);
+    justify-content: flex-start;
+}
+
+.projects {
+    padding: 0px 200px 0 200px;
+    flex-direction: row;
+    flex: wrap; 
+    justify-content: flex-end;
+}
