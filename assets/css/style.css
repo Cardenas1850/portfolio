@@ -2,4 +2,76 @@ html {
     scroll-behavior: smooth;
 }
 
+/* body style starts */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+    background: lightgrey;
+
+}
+
+/* end body style */
+
+
+/* header style starts */
+header {
+    padding: 25px 25px;
+    background-color: rgb(181, 142, 218);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    border-radius: 50%;
+   height: 175px;
+   width: 175px; 
+   border: solid 4px black;
+}
+
+header h1 {
+    justify-content: center;
+    font-style: bold;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+header nav {
+    margin: 10px;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header h1 nav ul li a{
+padding: 15px 15px;
+font-weight: lighter;
+font-size: 1vw;
+}
+/* end header style */
+
+
+
+/*footer style starts */
+footer {
+padding: 25px 25px;
+background-color: rgb(181, 142, 218);
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+
+/* footer style ends */
+
+/* article style begins */
+
+/* article style ends */
+
+
+
 
