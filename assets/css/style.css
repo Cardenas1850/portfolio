@@ -75,6 +75,32 @@ justify-content: space-between;
 flex-wrap: wrap;
 }
 
+footer h2 {
+    justify-content: center;
+    font-style: bold;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+footer nav {
+    margin: 10px 0;
+}
+
+footer nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+footer nav ul li {
+    padding: 0 30px 0 30px;
+}
+
+footer h2 nav ul li a{
+padding: 15px 15px;
+font-weight: lighter;
+font-size: 1.55vw;
+}
 
 /* footer style ends */
 
@@ -92,32 +118,30 @@ flex-wrap: wrap;
 /* about me style ends */
 
 /* work style begins */
-.project-text {
-    background:rgb(181, 142, 218);
-    font-size: 28px;
-    max-height: 100px;
-    max-width: 125px;
+.project-text p{
+    width: fit-content;
+    background-color: #8ca0ff;
+    margin-bottom: 1em;
     align-items: center;
     z-index: 2;
     position: relative;
-    bottom: 70px;
-    left: 875px;
+    bottom: 42px;;
+    left: 925px;
 }
-.project-text-main {
-    background:rgb(181, 142, 218);
-    font-size: 28px;
-    max-height: 100px;
-    max-width: 100px;
-    align-items: center;
-    z-index: 2;
-    position: relative;
-    top: 575px;
-    right: 515px;
+.project-text-main p {
+   background-color: #8ca0ff;
+   margin-bottom: 1em;
+   align-items: center;
+   z-index: 2;
+   position: relative;
+   top: 660px;
+   right: 645px;
 }
 .project-img {
 max-height: auto;
 max-width: 1000px;
 border: solid 3px rgb(181, 142, 218);
+
 }
 
 
