@@ -96,12 +96,12 @@ flex-wrap: wrap;
     background:rgb(181, 142, 218);
     font-size: 28px;
     max-height: 100px;
-    max-width: 100px;
+    max-width: 125px;
     align-items: center;
     z-index: 2;
     position: relative;
     bottom: 70px;
-    left: 900px;
+    left: 875px;
 }
 .project-text-main {
     background:rgb(181, 142, 218);
@@ -134,4 +134,9 @@ border: solid 3px rgb(181, 142, 218);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.hover :hover {
+    opacity: 50%;
+    transform: scale(.5);
 }
